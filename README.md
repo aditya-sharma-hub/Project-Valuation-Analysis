@@ -1,4 +1,9 @@
-# 📊 Project Valuation Analysis: Unicorn Company Prediction
+<p align="center">
+  <img src="project_logo.png" alt="Project Logo" width="250">
+</p>
+
+# 📊 Project Valuation Analysis — Machine Learning & Data Analytics
+
 
 A comprehensive machine learning and data analytics project focused on analyzing and predicting the valuations of Unicorn companies (privately held startups valued at over $1B). This project covers the entire ML lifecycle, from data processing and exploratory analysis to model training, optimization, and API deployment.
 
@@ -37,7 +42,39 @@ Extensive pre-processing was performed to ensure data quality:
 
 ## 🔍 Exploratory Data Analysis (EDA)
 
+## 🔍 Exploratory Data Analysis (EDA)
+
 The `Project_Valuation_Analysis.ipynb` notebook provides detailed visualizations, including pie charts, bar charts, line graphs, and correlation heatmaps.
+
+### Key Insights
+
+* The **US** accounts for approximately **54%** of all global Unicorn companies.
+* **Fintech** is identified as the most dominant sector by unicorn count.
+* **Rapid unicorn growth** was observed in the years between **2018–2021**.
+
+---
+
+### Visualization Highlights
+
+Here are a few key visualizations from our exploratory data analysis:
+
+#### Distribution of Unicorn Valuations
+
+This histogram illustrates the distribution of valuations among Unicorn companies. It clearly shows that a vast majority of unicorns are valued at or near the $1 Billion threshold, with a long tail indicating a few highly valued outliers.
+
+<p align="center">
+  <img src="valuation_distribution.png" alt="Distribution of Unicorn Valuations" width="700"/>
+</p>
+
+#### Top 10 Countries Producing Unicorns
+
+This pie chart highlights the top countries that have produced Unicorn companies. The United States dominates by a significant margin, followed by China and India, showcasing regional concentrations of high-growth startups.
+
+<p align="center">
+  <img src="top_countries_unicorns.png" alt="Top 10 Countries by Unicorn Count" width="700"/>
+</p>
+
+---
 
 ### Key Insights
 
