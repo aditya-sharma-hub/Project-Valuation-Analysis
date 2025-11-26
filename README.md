@@ -2,6 +2,38 @@
   <img src="project_logo.png" alt="Project Logo" width="250">
 </p>
 
+<p align="center">
+
+  <!-- Python Version -->
+  <img src="https://img.shields.io/badge/Python-3.8%2B-blue?logo=python&logoColor=white" alt="Python Version">
+
+  <!-- Scikit-Learn -->
+  <img src="https://img.shields.io/badge/ML-Scikit--Learn%200.24%2B-orange?logo=scikitlearn&logoColor=white" alt="Scikit-Learn">
+
+  <!-- Pandas -->
+  <img src="https://img.shields.io/badge/Pandas-Used%20in%20EDA%20%26%20Cleaning-150458?logo=pandas&logoColor=white" alt="Pandas">
+
+  <!-- NumPy -->
+  <img src="https://img.shields.io/badge/NumPy-Numerical%20Computing-013243?logo=numpy&logoColor=white" alt="NumPy">
+
+  <!-- Visualization Libraries -->
+  <img src="https://img.shields.io/badge/Visualization-Matplotlib%20%7C%20Seaborn-brightgreen" alt="Visualization">
+
+  <!-- Flask API -->
+  <img src="https://img.shields.io/badge/Deployment-Flask%20API-000000?logo=flask&logoColor=white" alt="Flask">
+
+  <!-- Dataset Size -->
+  <img src="https://img.shields.io/badge/Dataset-1186%20rows%20×%207%20columns-yellow" alt="Dataset Size">
+
+  <!-- Jupyter Notebook -->
+  <img src="https://img.shields.io/badge/Notebook-Jupyter-F37726?logo=jupyter&logoColor=white" alt="Jupyter">
+
+  <!-- Project Status -->
+  <img src="https://img.shields.io/badge/Status-Active-success" alt="Project Status">
+
+</p>
+
+
 # 📊 Project Valuation Analysis — Machine Learning & Data Analytics
 
 
@@ -20,10 +52,10 @@ A comprehensive machine learning and data analytics project focused on analyzing
 ---
 
 ## 📁 Project Structure
-├── Project_Valuation_Analysis.ipynb      # Main analysis & ML workflow  
-├── Project Valuation Analysis_ ML _ DA projects.pdf   # Full project explanation & visuals  
-├── unicorns till sep 2022.csv            # Dataset  
-└── README.md                             # This file  
+├── Project_Valuation_Analysis.ipynb                     
+├── Project Valuation Analysis_ ML _ DA projects.pdf     
+├── unicorns till sep 2022.csv                            
+└── README.md                                            
 
 
 ## 📄 Dataset Overview
@@ -40,25 +72,26 @@ Extensive pre-processing was performed to ensure data quality:
 * ✔ Splitting and transforming investor lists.
 * ✔ Handling inconsistent sector labels.
 
-## 🔍 Exploratory Data Analysis (EDA)
+
 
 ## 🔍 Exploratory Data Analysis (EDA)
 
 The `Project_Valuation_Analysis.ipynb` notebook provides detailed visualizations, including pie charts, bar charts, line graphs, and correlation heatmaps.
 
-### Key Insights
+
+---
+
+### 📌 Key Insights
 
 * The **US** accounts for approximately **54%** of all global Unicorn companies.
 * **Fintech** is identified as the most dominant sector by unicorn count.
 * **Rapid unicorn growth** was observed in the years between **2018–2021**.
 
----
-
-### Visualization Highlights
+### 📸 Visualization Highlights
 
 Here are a few key visualizations from our exploratory data analysis:
 
-#### Distribution of Unicorn Valuations
+#### 🟦 Distribution of Unicorn Valuations
 
 This histogram illustrates the distribution of valuations among Unicorn companies. It clearly shows that a vast majority of unicorns are valued at or near the $1 Billion threshold, with a long tail indicating a few highly valued outliers.
 
@@ -66,7 +99,7 @@ This histogram illustrates the distribution of valuations among Unicorn companie
   <img src="valuation_distribution.png" alt="Distribution of Unicorn Valuations" width="700"/>
 </p>
 
-#### Top 10 Countries Producing Unicorns
+#### 🌍 Top 10 Countries Producing Unicorns
 
 This pie chart highlights the top countries that have produced Unicorn companies. The United States dominates by a significant margin, followed by China and India, showcasing regional concentrations of high-growth startups.
 
@@ -74,13 +107,6 @@ This pie chart highlights the top countries that have produced Unicorn companies
   <img src="top_countries_unicorns.png" alt="Top 10 Countries by Unicorn Count" width="700"/>
 </p>
 
----
-
-### Key Insights
-
-* The **US** accounts for approximately **54%** of all global Unicorn companies.
-* **Fintech** is identified as the most dominant sector by unicorn count.
-* **Rapid unicorn growth** was observed in the years between **2018–2021**.
 
 ## 🤖 Machine Learning Workflow
 
@@ -106,37 +132,7 @@ This pie chart highlights the top countries that have produced Unicorn companies
 | **R² Score** | Feature Importance | `max_depth` |
 | **Feature Importance** | | `min_samples_split` |
 
----
 
-## 🚀 Deployment (Flask API)
-
-A simple **Flask** application is included to demonstrate the model's deployment. It loads the optimized Random Forest model and serves predictions via an HTTP POST request.
-
-### Usage
-
-1.  Ensure you have the dependencies installed (see Installation).
-2.  Run the application:
-
-    ```bash
-    python app.py
-    ```
-3.  The API accepts JSON input (features for a new company) and returns the predicted valuation.
-
-## 🛠️ Installation & Setup
-
-To clone the repository and run the notebook:
-
-```bash
-git clone [https://github.com/yourusername/project-valuation-analysis.git](https://github.com/yourusername/project-valuation-analysis.git)
-cd project-valuation-analysis
-
-# Install all necessary Python dependencies
-pip install -r requirements.txt
-
-# Run the analysis notebook
-jupyter notebook Project_Valuation_Analysis.ipynb```
----
-```
 ---
 
 ## 👨‍💻 Author
