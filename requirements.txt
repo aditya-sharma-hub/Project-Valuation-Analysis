@@ -1,0 +1,17 @@
+# Data Processing and Analysis
+pandas
+numpy
+
+# Machine Learning
+scikit-learn==1.2.2  # Specify a common version for stability, required for LR, RF, GridSearchCV, and model persistence (pickle)
+
+# Data Visualization and EDA
+matplotlib
+seaborn
+
+# Deployment
+Flask  # Lightweight web framework for the API
+
+# Additional Utilities (often useful in Jupyter environments)
+jupyter
+ipykernel
