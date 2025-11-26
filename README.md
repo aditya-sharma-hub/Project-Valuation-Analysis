@@ -99,3 +99,19 @@ pip install -r requirements.txt
 # Run the analysis notebook
 jupyter notebook Project_Valuation_Analysis.ipynb```
 ---
+```
+---
+
+## 👨‍💻 Author
+
+**Aditya Sharma**  
+Data Scientist | Business Intelligence Developer 
+
+---
+
+## 📄 License
+
+This project is intended for educational and portfolio purposes.  
+Please attribute the author if you reuse or reference this work.
+
+---
