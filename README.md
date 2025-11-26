@@ -19,9 +19,6 @@
   <!-- Visualization Libraries -->
   <img src="https://img.shields.io/badge/Visualization-Matplotlib%20%7C%20Seaborn-brightgreen" alt="Visualization">
 
-  <!-- Flask API -->
-  <img src="https://img.shields.io/badge/Deployment-Flask%20API-000000?logo=flask&logoColor=white" alt="Flask">
-
   <!-- Dataset Size -->
   <img src="https://img.shields.io/badge/Dataset-1186%20rows%20×%207%20columns-yellow" alt="Dataset Size">
 
